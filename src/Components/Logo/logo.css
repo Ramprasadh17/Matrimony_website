@@ -1,0 +1,61 @@
+.logo_container{
+    display: flex;
+}
+.icondiv{
+    width: 50%;
+    margin: 20px;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    padding: 10px;
+
+}
+.buttons{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+
+}
+
+.buttons span{
+    margin-right: 150px;
+    border: none;
+    margin-top: 50px;
+}
+.register_button ,.login_button{
+    font-size: x-large;
+    background-color: greenyellow;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.register_icon {
+    width: 50px;
+    padding-right: 5px;
+    border-radius: 50%;
+}
+.login_icon{
+    width: 30px;
+    padding-right: 5px;
+    border-radius: 50%;
+}
+
+.register_button:active{
+    background-color: blueviolet;
+}
+.login_button:active{
+    background-color: blueviolet;
+}
+.register_button:hover{
+    transform: scale(1.2);
+}
+.login_button:hover{
+    transform: scale(1.2);
+}

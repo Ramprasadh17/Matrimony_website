@@ -1,0 +1,30 @@
+html,body{
+    margin: 0;
+}
+
+.Header{
+    height: 50px;
+    justify-content: left;
+    display: flex;
+    background-color: aqua;
+}
+.leftside{
+    margin-left: 200px;
+    display: flex;
+    align-items: center;  
+}
+
+
+.home ,.aboutus ,.contactus ,.create ,.login{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    font-size: large;
+    cursor: pointer;
+}
+.home:hover ,.aboutus:hover ,.contactus:hover ,.create:hover ,.login:hover{
+    background-color: red;    
+    color: white;
+}

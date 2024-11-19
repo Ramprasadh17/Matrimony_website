@@ -1,0 +1,27 @@
+.welcome{
+    width: 100%;
+    height: 500px;
+}
+
+.image_container {
+    position: relative;
+    display: inline-block; /* Keeps the image and text together */
+    width: 100% ;
+    height: 500px;
+  }
+  
+ 
+  .text_overlay {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%; /* Position text vertically in the middle */
+    left: 50%; /* Position text horizontally in the middle */
+    transform: translate(-50%, -50%); /* Fine-tune the centering */
+    color: white; /* Set text color to contrast with the image */
+    font-size: 80px; /* Adjust text size */
+    font-weight: bold; /* Optional: Make text bold */
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); /* Optional: Add shadow for better readability */
+  }
+  

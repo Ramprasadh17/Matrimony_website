@@ -1,0 +1,20 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: aqua;
+}
+.about_heading{
+    display: flex;
+    justify-content: center;
+}
+.about_content{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    
+}

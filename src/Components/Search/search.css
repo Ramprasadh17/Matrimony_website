@@ -1,0 +1,35 @@
+.div_container{
+    display: flex;
+    justify-content: center;
+
+}
+.main_container{
+    display: flex;
+    padding: 20px;
+    width: 60%;
+    justify-content: space-between;
+
+}
+.div_container_1{
+    display: flex;
+    justify-content: space-between;
+}
+.container_1{
+    border: 1px solid black;
+    padding: 20px;
+    /* background-color: aquamarine; */
+}
+.container_1_1{
+    border: 1px solid black;
+    padding: 20px;
+}
+.container_2{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: aquamarine;
+}
+.container_3{
+    /* border: 1px solid black; */
+    padding: 20px;
+    background-color: aquamarine;
+}
